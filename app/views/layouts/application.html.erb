@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MidMod</title>
+    <title>Urlockbox</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
@@ -9,6 +9,13 @@
   </head>
 
   <body>
+    <% if  logged_in? %>
+      <%= button_to "Sign Out", session_path(current_user[:id]), method: "delete"%>
+    <% end %>
+    <% flash.each do |type, message| %>
+        <strong><%= message %></strong>
+       <% end %>
     <%= yield %>
   </body>
+
 </html>
