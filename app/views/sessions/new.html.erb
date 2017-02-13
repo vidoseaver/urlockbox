@@ -1,2 +1,7 @@
-<h1>Sessions#new</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<form action = "/sessions"   method="post">
+  <input type="text" value="Email" name="email">
+  <input type="password" name="password" value="">
+  <input type="submit" name="submit" value="Login">
+</form>
+
+<%=link_to "Sign up", new_user_path%>
