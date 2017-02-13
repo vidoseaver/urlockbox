@@ -2,8 +2,8 @@ require "rails_helper"
 
 describe "link#index" do
   it "it returns json of all links" do
-    user_1 = User.create(email: "vido@test.com", password:"test")
-    user_2 = User.create(email: "notvido@test.com", password:"test")
+    user_1 = User.create!(email: "vido@test.com", password:"test")
+    user_2 = User.create!(email: "notvido@test.com", password:"test")
 
     link_1 = user_1.links.create!( title: "Google", url: "http://www.google.com")
     link_2 = user_2.links.create!( title: "Yahoo", url: "http://www.yahoo.com")
@@ -13,7 +13,7 @@ describe "link#index" do
     expect(response).to be_success
 
     json = JSON.parse(response.body, symbolize_names: true)
-
+    
     json_sorted = json.sort{|link| link[:id]}.reverse
 
     expect(json.count).to eq(Link.count)
