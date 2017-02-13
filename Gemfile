@@ -28,14 +28,29 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'rb-readline' #make pry work
+gem 'figaro' #hide our stuff
+gem 'serializer' #api serializers
+gem 'faraday' #for http requests
+gem 'faker' # for seed data
+gem 'twilio-ruby', '~> 4.11.1'
+gem 'public_activity'
+gem 'valid_url'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry' #duh
+  gem 'launchy' #because restarting the server every time sucks
+
+  gem 'rspec-rails' #testing suite
+  gem 'capybara' #feature testing
+  gem 'factory_girl_rails' #creating items for tests
+  gem 'simplecov' #so we can tell what's being hit
+  gem 'database_cleaner' #keep it clean
+  gem 'selenium-webdriver'
 end
 
 group :development do
