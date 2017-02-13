@@ -201,14 +201,25 @@
       "/Users/vidoseaver/turing/4/mid-mod/config/routes.rb": [
         1,
         null,
-        null,
         1,
         1,
         1,
         1,
         null,
+        1,
+        1,
+        1,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/api/v1/links_helper.rb": [
+        1,
         null
       ],
       "/Users/vidoseaver/turing/4/mid-mod/app/helpers/application_helper.rb": [
@@ -378,8 +389,18 @@
         1,
         null,
         null
+      ],
+      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/api/v1/links_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1487016174
+    "timestamp": 1487018213
   }
 }
