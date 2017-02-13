@@ -32,12 +32,13 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'rb-readline' #make pry work
 gem 'figaro' #hide our stuff
-gem 'serializer' #api serializers
+gem 'active_model_serializers'
 gem 'faraday' #for http requests
 gem 'faker' # for seed data
 gem 'twilio-ruby', '~> 4.11.1'
 gem 'public_activity'
 gem 'valid_url'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
