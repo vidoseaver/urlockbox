@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/vidoseaver/turing/4/mid-mod/config/environment.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/application.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/application.rb": [
         1,
         null,
         1,
@@ -39,12 +39,12 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/boot.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/environments/test.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/environments/test.rb": [
         1,
         null,
         null,
@@ -88,7 +88,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/application_controller_renderer.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -96,7 +96,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/assets.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -109,7 +109,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/backtrace_silencers.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -118,20 +118,20 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/cookies_serializer.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/cookies_serializer.rb": [
         null,
-        null,
-        null,
-        null,
-        1
-      ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/inflections.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -149,13 +149,13 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/mime_types.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/new_framework_defaults.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/new_framework_defaults.rb": [
         null,
         null,
         null,
@@ -181,12 +181,12 @@
         null,
         1
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/session_store.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/initializers/wrap_parameters.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -202,7 +202,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/config/routes.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/config/routes.rb": [
         1,
         null,
         1,
@@ -222,27 +222,27 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/api/v1/links_helper.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/helpers/api/v1/links_helper.rb": [
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/application_helper.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/links_helper.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/helpers/links_helper.rb": [
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/sessions_helper.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/helpers/sessions_helper.rb": [
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/helpers/users_helper.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/models/link.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/models/link.rb": [
         1,
         1,
         1,
@@ -254,12 +254,12 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/models/application_record.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/models/user.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/models/user.rb": [
         1,
         1,
         1,
@@ -267,7 +267,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/users_controller.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/controllers/users_controller.rb": [
         1,
         1,
         5,
@@ -304,7 +304,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/application_controller.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -319,7 +319,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/links_controller.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/controllers/links_controller.rb": [
         1,
         1,
         11,
@@ -361,7 +361,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/sessions_controller.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -394,7 +394,7 @@
         null,
         null
       ],
-      "/Users/vidoseaver/turing/4/mid-mod/app/controllers/api/v1/links_controller.rb": [
+      "/Users/vidoseaver/turing/4/urlockbox/app/controllers/api/v1/links_controller.rb": [
         1,
         1,
         1,
@@ -428,6 +428,6 @@
         null
       ]
     },
-    "timestamp": 1487022408
+    "timestamp": 1487022948
   }
 }
