@@ -4,6 +4,10 @@ class LinksController < ApplicationController
     @links = current_user.links
   end
 
+  def edit
+    @link = Link.find(params[:id])
+  end
+
   def create
     return invalid_url_error unless Link.valid_url?(link_params[:url])
     return no_title_error unless has_title?
@@ -12,10 +16,9 @@ class LinksController < ApplicationController
     redirect_to links_path
   end
 
-  def destroy
-  end
 
   def update
+    binding.pry
   end
 
   private

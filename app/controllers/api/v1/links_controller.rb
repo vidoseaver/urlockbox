@@ -1,14 +1,12 @@
 class Api::V1::LinksController < ApplicationController
   def index
-    render json: Link.all
+    render json: Link.top_ten_read_in_last_24_hours
   end
 
   def update
-    @link = Link.find(link_params[:id])
-    return invalid_url_error unless Link.valid_url?(link_params[:url])
-    return no_title_error unless has_title?
-    @link.update_attributes(link_params)
-    render json: @link
+    @link = Link.find(params[:id])
+    @link.update_attributes(read: true)
+    redirect_to links_path
   end
 
   private

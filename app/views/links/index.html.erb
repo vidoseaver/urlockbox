@@ -10,12 +10,22 @@
   <%= f.submit "Submit"%>
 <% end %>
 
-<h2>All your links</h2>
 <% if @links %>
+<h2>All your links</h2>
+<table>
+  <tr>
+    <th>Title</th><th>URL</th><th>Read?</th><th></th><th></th>
+  </tr>
   <% @links.each do |link| %>
-  <h4>Title: </h4><%= link.title %> <br>
-  <h4>Url:</h4><%= link.url %><br>
-  <%= button_to "Mark as Read", link_path(current_user[:id]), method: "patch"%> <br>
-  <%= button_to "Delete", link_path(current_user[:id]), method: "delete"%> <br>
+    <tr>
+      <%= form_for link do |f| %>
+        <td><%= f.text_field :title %></td>
+        <td><%= f.text_field :url%></td>
+        <td><%= link.read %></td>
+        <td><%= f.submit "Submit"%> </td>
+      <% end %>
+        <td><%= button_to "Mark as Read", api_v1_link_path(link[:id]), method: "patch"%></td>
+      </tr>
   <% end %>
+</table>
 <% end %>
